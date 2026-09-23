@@ -1,8 +1,6 @@
 # Windows Admin Automation
 
-A collection of PowerShell scripts created to automate and practice common Windows administration, desktop support, and endpoint troubleshooting tasks.
-
-The repository focuses on local account management, Windows services, process troubleshooting, application remediation, system health checks, and Event Viewer analysis.
+PowerShell scripts for practicing common Windows administration, endpoint support, and troubleshooting tasks.
 
 ## Skills Demonstrated
 
@@ -11,10 +9,17 @@ The repository focuses on local account management, Windows services, process tr
 - Local user management
 - Windows services
 - Process management
+- Event Viewer
+- Disk and volume checks
+- System uptime
 - Application troubleshooting
-- Windows Event Logs
-- Disk and volume inspection
-- System uptime analysis
-- Structured PowerShell objects
-- JSON output
-- Endpoint troubleshooting
+- Endpoint support
+
+## Scripts
+
+- `Accounts.ps1` - Creates and reviews local Windows user accounts.
+- `DeleteAccount.ps1` - Removes local user accounts with confirmation.
+- `ProcessAndCacheCleanUp.ps1` - Troubleshoots Outlook and Teams processes and cache issues.
+- `Service-script.ps1` - Reviews Windows services and system configuration.
+- `Troubleshooting.ps1` - Performs general Windows workstation health and troubleshooting checks.
+- `systemlogs.ps1` - Reviews recent Windows System event logs for warnings and useful troubleshooting information.
